@@ -42,7 +42,7 @@ model.load_weights("model_checkpoints/cp.ckpt")
 st.header("Pokemon classifier Analytics")
 st.write("\n\n\n\n\n\n\n\n")
 st.write("\n:wave:    **Welcome, here you can identify a Pokemon and quickly get some informations about it. It \
-is still quite experimental and can't recognize all the Pokémons, but only the top 50 in OU Gen 8. The list of these pokemons is available at the very bottom**")
+is still quite experimental and can't recognize all the Pokémons, but only the top 50 (single) in OU Gen 8. The list of these pokemons is available at the very bottom**")
 st.write("\n\n\n\n\n\n\n")
 
 def main():
