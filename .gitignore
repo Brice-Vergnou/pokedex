@@ -131,3 +131,4 @@ dmypy.json
 
 # Custom
 .ipynb_checkpoints
+.idea
