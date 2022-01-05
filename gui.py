@@ -70,8 +70,6 @@ def main():
         st.write(f"All the informations have been scrapped from \
         [Pikalitics](https://www.pikalytics.com/pokedex/ss/{result.replace(' ','%20')}). You can also find more \
         informations about known sets or check/counters on [Smogon](https://www.smogon.com/dex/ss/pokemon/{result.replace(' ','%20')}).")
-        with st.expander("List of Pokemons"):
-            st.write(sorted([item.name for item in data_dir.glob('*')]))
 
 def get_info(pokemon, url):
     ##### GETTING DATA ######
@@ -290,4 +288,5 @@ def predict_class(image):
 
 if __name__ == "__main__":
     main()
-
+    with st.expander("List of Pokemons"):
+        st.write(sorted([item.name for item in data_dir.glob('*')]))
