@@ -39,10 +39,29 @@ model.compile(loss="sparse_categorical_crossentropy",
               metrics=["accuracy"])
 model.load_weights("model_checkpoints/cp.ckpt")
 
+st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
+st.markdown("""
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
+  <a class="navbar-brand" href="https://github.com/Brice-Vergnou/pokedex" target="_blank">Smart Pokedex</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link disabled" href="#">Image-Based Pokedex<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" target="_blank">Name-Based Pokedex</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+""", unsafe_allow_html=True)
 st.header("Pokemon classifier Analytics")
 st.write("\n\n\n\n\n\n\n\n")
-st.write("\n:wave:    **Welcome, here you can identify a Pokemon and quickly get some informations about it. It \
-is still quite experimental and can't recognize all the Pokémons, but only the top 50 (single) in OU Gen 8. The list of these pokemons is available at the very bottom**")
+st.write("\n:wave:    **Welcome, here you can identify a Pokemon from a picture and quickly get some informations about it. It \
+can't recognize all the Pokémons, but only the top 50 (single) in OU Gen 8. The list of these pokemons is available at the very bottom**")
 st.write("\n\n\n\n\n\n\n")
 
 def main():
