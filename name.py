@@ -4,7 +4,6 @@ import numpy as np
 import requests
 import json
 import pandas as pd
-from data_dex import dex
 
 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
@@ -31,6 +30,9 @@ st.write("\n\n\n\n\n\n\n\n")
 st.write("\n:wave:    **Welcome, here you can quickly get some useful informations about a Pokemon for strategy, both in single or VGC. Just provide its name down below**")
 st.write("\n\n\n\n\n\n\n")
 
+with open("data_cleaned.json","r") as f:
+    dex = json.load(f)
+
 def main():
     pokemon = st.multiselect(
         'Pokemon :',
@@ -39,14 +41,14 @@ def main():
         working_pokemon = pokemon[0].replace(' ','%20')
         option = st.sidebar.selectbox(
             'Which format are you interested in ?',
-            ('Anything', 'VGC', 'Ubers', 'Overused', 'UnderUsed', 'RarelyUsed','NeverUsed', 'PU', 'Monotype'))
+            tuple(dex[pokemon[0]]))
         if option == "OverUsed":
             url = "https://www.pikalytics.com/api/p/2021-12/gen8ou-1825/"
         elif option == "VGC" :
             url ="https://www.pikalytics.com/api/p/2021-12/ss-1760/"
         elif option == "Monotype":
             url = "https://www.pikalytics.com/api/p/2021-12/gen8monotype-1760/"
-        elif option == "Anything":
+        elif option == "All":
             url = "https://www.pikalytics.com/api/p/2021-12/gen8nationaldexag-1760/"
         elif option == "Ubers":
             url = "https://www.pikalytics.com/api/p/2021-12/gen8ubers-1760/"

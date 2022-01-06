@@ -138,3 +138,43 @@ dex = ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Charmander', 'Charmeleon', 'Charizar
        'Urshifu-Rapid-Strike',
        'Glastrier', 'Spectrier', 'Zapdos-Galar', 'Articuno-Galar', 'Moltres-Galar', 'Regieleki',
        'Regidrago', 'Slowking-Galar', 'Calyrex-Shadow', 'Calyrex-Ice']
+
+##### RUN ONLY ONCE AS WELL, TURN LIST INTO DICT WITH EACH CATEGORY #####
+import urllib.request
+urls = ["https://www.pikalytics.com/api/p/2021-12/gen8ou-1825/",
+        "https://www.pikalytics.com/api/p/2021-12/ss-1760/",
+        "https://www.pikalytics.com/api/p/2021-12/gen8monotype-1760/",
+        "https://www.pikalytics.com/api/p/2021-12/gen8nationaldexag-1760/",
+        "https://www.pikalytics.com/api/p/2021-12/gen8ubers-1760/",
+        "https://www.pikalytics.com/api/p/2021-12/gen8uu-1760/",
+        "https://www.pikalytics.com/api/p/2021-12/gen8ru-1760/",
+        "https://www.pikalytics.com/api/p/2021-12/gen8nu-1760/",
+        "https://www.pikalytics.com/api/p/2021-12/gen8pu-1760/"]
+cat = ["OverUsed", "VGC", "Monotype", "All","Ubers","UnderUsed","RarelyUsed","NeverUsed","PU"]
+pok_cat = {}
+for j,mon in enumerate(dex):
+       pok_cat[mon] = []
+       for i, url in enumerate(urls):
+              print(f"Pokemon {j} {mon} : {cat[i]}     -    {url+ mon.lower().replace(' ','%20')}")
+              try:
+                     urllib.request.urlopen(url+ mon.lower().replace(' ','%20'), timeout=1)
+                     pok_cat[mon].append(cat[i])
+              except:
+                     print("Doesn't exist")
+with open("data.json","w") as f:
+       f.write(str(pok_cat))
+
+##### ALSO RUN ONCE, REMOVE POKEMONS WITH NO DATA #####
+import json
+
+with open("data.json","r") as f:
+    dex = json.load(f)
+
+
+tmp = dex
+for mon in list(tmp):
+    if dex[mon] == []:
+        del dex[mon]
+
+with open('data_cleaned.json', 'w') as outfile: #Dont overwrite the previous file in case it doesnt work as intended
+    json.dump(dex, outfile)

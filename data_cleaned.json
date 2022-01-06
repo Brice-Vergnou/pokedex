@@ -1,0 +1,3533 @@
+{
+  "Ivysaur": [
+    "RarelyUsed",
+    "PU"
+  ],
+  "Venusaur": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Charizard": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Wartortle": [
+    "VGC",
+    "PU"
+  ],
+  "Blastoise": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Butterfree": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "NeverUsed",
+    "PU"
+  ],
+  "Pikachu": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "PU"
+  ],
+  "Raichu": [
+    "VGC",
+    "All",
+    "Ubers",
+    "PU"
+  ],
+  "Raichu-Alola": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Sandslash": [
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Sandslash-Alola": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Nidoqueen": [
+    "OverUsed",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Nidoking": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Clefairy": [
+    "VGC",
+    "All",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Clefable": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Vulpix-Alola": [
+    "PU"
+  ],
+  "Ninetales": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Ninetales-Alola": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Jigglypuff": [
+    "VGC"
+  ],
+  "Wigglytuff": [
+    "VGC",
+    "Monotype",
+    "All",
+    "PU"
+  ],
+  "Golbat": [
+    "Monotype",
+    "NeverUsed",
+    "PU"
+  ],
+  "Gloom": [
+    "PU"
+  ],
+  "Vileplume": [
+    "VGC",
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Dugtrio": [
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "NeverUsed",
+    "PU"
+  ],
+  "Dugtrio-Alola": [
+    "All",
+    "PU"
+  ],
+  "Persian": [
+    "PU"
+  ],
+  "Persian-Alola": [
+    "VGC",
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Golduck": [
+    "VGC",
+    "All",
+    "PU"
+  ],
+  "Arcanine": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Poliwrath": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Kadabra": [
+    "RarelyUsed",
+    "PU"
+  ],
+  "Alakazam": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Machamp": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Tentacruel": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed"
+  ],
+  "Golem-Alola": [
+    "All"
+  ],
+  "Rapidash": [
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Rapidash-Galar": [
+    "Monotype",
+    "NeverUsed",
+    "PU"
+  ],
+  "Slowpoke": [
+    "VGC",
+    "NeverUsed"
+  ],
+  "Slowpoke-Galar": [
+    "VGC",
+    "NeverUsed"
+  ],
+  "Slowbro": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Slowbro-Galar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Magnemite": [
+    "All",
+    "Ubers"
+  ],
+  "Magneton": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Dodrio": [
+    "All"
+  ],
+  "Muk-Alola": [
+    "All"
+  ],
+  "Cloyster": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Haunter": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Gengar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Onix": [
+    "Monotype",
+    "PU"
+  ],
+  "Kingler": [
+    "VGC",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Electrode": [
+    "All"
+  ],
+  "Exeggutor": [
+    "VGC",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Exeggutor-Alola": [
+    "VGC",
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Marowak": [
+    "VGC",
+    "Ubers",
+    "NeverUsed",
+    "PU"
+  ],
+  "Marowak-Alola": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Hitmonlee": [
+    "VGC",
+    "All",
+    "Ubers",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Hitmonchan": [
+    "VGC",
+    "PU"
+  ],
+  "Lickitung": [
+    "NeverUsed"
+  ],
+  "Koffing": [
+    "VGC"
+  ],
+  "Weezing": [
+    "OverUsed",
+    "VGC",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Weezing-Galar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Rhydon": [
+    "Ubers",
+    "NeverUsed",
+    "PU"
+  ],
+  "Chansey": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Tangela": [
+    "VGC",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Kangaskhan": [
+    "VGC",
+    "NeverUsed",
+    "PU"
+  ],
+  "Seadra": [
+    "PU"
+  ],
+  "Seaking": [
+    "VGC",
+    "UnderUsed",
+    "PU"
+  ],
+  "Starmie": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Mr. Mime": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "PU"
+  ],
+  "Mr. Mime-Galar": [
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "PU"
+  ],
+  "Scyther": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Jynx": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "Ubers",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Electabuzz": [
+    "PU"
+  ],
+  "Pinsir": [
+    "PU"
+  ],
+  "Tauros": [
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Gyarados": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Lapras": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "PU"
+  ],
+  "Ditto": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Eevee": [
+    "All",
+    "PU"
+  ],
+  "Vaporeon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Jolteon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Flareon": [
+    "VGC",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Omastar": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Kabutops": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Aerodactyl": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Snorlax": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Articuno": [
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Zapdos": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Moltres": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Dragonite": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Mewtwo": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Mew": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Typhlosion": [
+    "All"
+  ],
+  "Feraligatr": [
+    "All"
+  ],
+  "Noctowl": [
+    "VGC",
+    "NeverUsed",
+    "PU"
+  ],
+  "Ariados": [
+    "All"
+  ],
+  "Crobat": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Lanturn": [
+    "Monotype",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Togetic": [
+    "VGC",
+    "All",
+    "PU"
+  ],
+  "Xatu": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Bellossom": [
+    "Monotype",
+    "All",
+    "NeverUsed",
+    "PU"
+  ],
+  "Azumarill": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Sudowoodo": [
+    "Monotype",
+    "UnderUsed",
+    "PU"
+  ],
+  "Politoed": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Jumpluff": [
+    "All"
+  ],
+  "Quagsire": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Espeon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Umbreon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Murkrow": [
+    "All"
+  ],
+  "Slowking": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Wobbuffet": [
+    "All",
+    "RarelyUsed"
+  ],
+  "Girafarig": [
+    "All"
+  ],
+  "Pineco": [
+    "All"
+  ],
+  "Forretress": [
+    "All"
+  ],
+  "Dunsparce": [
+    "VGC",
+    "All"
+  ],
+  "Steelix": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Qwilfish": [
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Scizor": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Shuckle": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Heracross": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Sneasel": [
+    "VGC",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Magcargo": [
+    "All"
+  ],
+  "Piloswine": [
+    "Monotype",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Corsola": [
+    "VGC",
+    "PU"
+  ],
+  "Corsola-Galar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Octillery": [
+    "All",
+    "NeverUsed",
+    "PU"
+  ],
+  "Delibird": [
+    "VGC",
+    "All",
+    "Ubers",
+    "PU"
+  ],
+  "Mantine": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Skarmory": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Kingdra": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Donphan": [
+    "All"
+  ],
+  "Porygon2": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Smeargle": [
+    "All"
+  ],
+  "Hitmontop": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Miltank": [
+    "VGC",
+    "Monotype",
+    "All",
+    "NeverUsed",
+    "PU"
+  ],
+  "Blissey": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Raikou": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Entei": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Suicune": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Pupitar": [
+    "PU"
+  ],
+  "Tyranitar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Lugia": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Ho-Oh": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Celebi": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Grovyle": [
+    "PU"
+  ],
+  "Sceptile": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Combusken": [
+    "Monotype",
+    "UnderUsed",
+    "PU"
+  ],
+  "Blaziken": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Marshtomp": [
+    "Monotype"
+  ],
+  "Swampert": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Linoone": [
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Linoone-Galar": [
+    "PU"
+  ],
+  "Ludicolo": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Shiftry": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Taillow": [
+    "All"
+  ],
+  "Swellow": [
+    "All"
+  ],
+  "Pelipper": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Gardevoir": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Masquerain": [
+    "All"
+  ],
+  "Breloom": [
+    "All"
+  ],
+  "Slaking": [
+    "All"
+  ],
+  "Ninjask": [
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Shedinja": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Exploud": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Nosepass": [
+    "All"
+  ],
+  "Sableye": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Mawile": [
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Aron": [
+    "All",
+    "Ubers",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Lairon": [
+    "PU"
+  ],
+  "Aggron": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Medicham": [
+    "All"
+  ],
+  "Manectric": [
+    "OverUsed",
+    "VGC",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Illumise": [
+    "All"
+  ],
+  "Roselia": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Sharpedo": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Wailord": [
+    "PU"
+  ],
+  "Torkoal": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Spinda": [
+    "All"
+  ],
+  "Vibrava": [
+    "PU"
+  ],
+  "Flygon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Altaria": [
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Lunatone": [
+    "VGC",
+    "Monotype",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Solrock": [
+    "Monotype",
+    "PU"
+  ],
+  "Whiscash": [
+    "PU"
+  ],
+  "Crawdaunt": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Claydol": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Cradily": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Armaldo": [
+    "Monotype",
+    "PU"
+  ],
+  "Milotic": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Dusclops": [
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Absol": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Glalie": [
+    "All",
+    "Ubers"
+  ],
+  "Walrein": [
+    "OverUsed",
+    "Monotype",
+    "UnderUsed",
+    "PU"
+  ],
+  "Clamperl": [
+    "All"
+  ],
+  "Salamence": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Metagross": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Regirock": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Regice": [
+    "Monotype",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Registeel": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Latias": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Latios": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All"
+  ],
+  "Kyogre": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Groudon": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Rayquaza": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Jirachi": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Deoxys-Attack": [
+    "All"
+  ],
+  "Deoxys-Defense": [
+    "All"
+  ],
+  "Deoxys-Speed": [
+    "All"
+  ],
+  "Torterra": [
+    "All"
+  ],
+  "Infernape": [
+    "All"
+  ],
+  "Empoleon": [
+    "All"
+  ],
+  "Staraptor": [
+    "All"
+  ],
+  "Bibarel": [
+    "All"
+  ],
+  "Kricketune": [
+    "All"
+  ],
+  "Luxray": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Roserade": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Rampardos": [
+    "All"
+  ],
+  "Bastiodon": [
+    "All"
+  ],
+  "Vespiquen": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Cherrim": [
+    "VGC"
+  ],
+  "Gastrodon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Ambipom": [
+    "All"
+  ],
+  "Drifblim": [
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Lopunny": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Honchkrow": [
+    "All"
+  ],
+  "Skuntank": [
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Bronzor": [
+    "PU"
+  ],
+  "Bronzong": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Mime Jr.": [
+    "VGC"
+  ],
+  "Chatot": [
+    "All"
+  ],
+  "Spiritomb": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Garchomp": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Munchlax": [
+    "RarelyUsed"
+  ],
+  "Riolu": [
+    "VGC"
+  ],
+  "Lucario": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Hippowdon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Drapion": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Toxicroak": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Abomasnow": [
+    "VGC",
+    "Monotype",
+    "Ubers",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Weavile": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Magnezone": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Lickilicky": [
+    "VGC",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Rhyperior": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed"
+  ],
+  "Tangrowth": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Electivire": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Magmortar": [
+    "VGC",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Togekiss": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Yanmega": [
+    "All"
+  ],
+  "Leafeon": [
+    "OverUsed",
+    "VGC",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Glaceon": [
+    "VGC",
+    "Monotype",
+    "All",
+    "NeverUsed",
+    "PU"
+  ],
+  "Gliscor": [
+    "All"
+  ],
+  "Mamoswine": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Porygon-Z": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Gallade": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Probopass": [
+    "All"
+  ],
+  "Dusknoir": [
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Froslass": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Rotom": [
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Rotom-Heat": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Rotom-Wash": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Rotom-Frost": [
+    "VGC",
+    "Monotype",
+    "NeverUsed",
+    "PU"
+  ],
+  "Rotom-Fan": [
+    "VGC",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Rotom-Mow": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Uxie": [
+    "OverUsed",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Mesprit": [
+    "OverUsed",
+    "VGC",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Azelf": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Dialga": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Palkia": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Heatran": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Regigigas": [
+    "OverUsed",
+    "VGC",
+    "UnderUsed",
+    "PU"
+  ],
+  "Giratina": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Cresselia": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Manaphy": [
+    "All"
+  ],
+  "Darkrai": [
+    "All"
+  ],
+  "Arceus": [
+    "All"
+  ],
+  "Arceus-Bug": [
+    "All"
+  ],
+  "Arceus-Dark": [
+    "All"
+  ],
+  "Arceus-Dragon": [
+    "All"
+  ],
+  "Arceus-Electric": [
+    "All"
+  ],
+  "Arceus-Fairy": [
+    "All"
+  ],
+  "Arceus-Fighting": [
+    "All"
+  ],
+  "Arceus-Fire": [
+    "All"
+  ],
+  "Arceus-Flying": [
+    "All"
+  ],
+  "Arceus-Ghost": [
+    "All"
+  ],
+  "Arceus-Grass": [
+    "All"
+  ],
+  "Arceus-Ground": [
+    "All"
+  ],
+  "Arceus-Ice": [
+    "All"
+  ],
+  "Arceus-Poison": [
+    "All"
+  ],
+  "Arceus-Psychic": [
+    "All"
+  ],
+  "Arceus-Rock": [
+    "All"
+  ],
+  "Arceus-Steel": [
+    "All"
+  ],
+  "Arceus-Water": [
+    "All"
+  ],
+  "Victini": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Serperior": [
+    "All"
+  ],
+  "Emboar": [
+    "All"
+  ],
+  "Samurott": [
+    "All"
+  ],
+  "Stoutland": [
+    "VGC",
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Liepard": [
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Musharna": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Unfezant": [
+    "VGC",
+    "Monotype",
+    "NeverUsed",
+    "PU"
+  ],
+  "Gigalith": [
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Swoobat": [
+    "VGC",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Excadrill": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Audino": [
+    "OverUsed",
+    "Ubers",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Gurdurr": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Conkeldurr": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Palpitoad": [
+    "PU"
+  ],
+  "Seismitoad": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Throh": [
+    "PU"
+  ],
+  "Sawk": [
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Leavanny": [
+    "All"
+  ],
+  "Scolipede": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Cottonee": [
+    "All",
+    "Ubers",
+    "NeverUsed"
+  ],
+  "Whimsicott": [
+    "OverUsed",
+    "VGC",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Lilligant": [
+    "VGC",
+    "PU"
+  ],
+  "Basculin": [
+    "PU"
+  ],
+  "Krookodile": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Darmanitan": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Darmanitan-Galar": [
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Maractus": [
+    "VGC",
+    "PU"
+  ],
+  "Dwebble": [
+    "NeverUsed"
+  ],
+  "Crustle": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Scrafty": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Sigilyph": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Cofagrigus": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Carracosta": [
+    "OverUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Archeops": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Garbodor": [
+    "VGC",
+    "All",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Zoroark": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Cinccino": [
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Gothitelle": [
+    "VGC",
+    "All",
+    "PU"
+  ],
+  "Duosion": [
+    "PU"
+  ],
+  "Reuniclus": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Vanilluxe": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Sawsbuck": [
+    "All"
+  ],
+  "Emolga": [
+    "VGC",
+    "Monotype",
+    "PU"
+  ],
+  "Escavalier": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Amoonguss": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Jellicent": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Alomomola": [
+    "All"
+  ],
+  "Galvantula": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Ferroseed": [
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Ferrothorn": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Klinklang": [
+    "VGC",
+    "Monotype",
+    "PU"
+  ],
+  "Eelektross": [
+    "All"
+  ],
+  "Beheeyem": [
+    "VGC",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Chandelure": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Fraxure": [
+    "PU"
+  ],
+  "Haxorus": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed"
+  ],
+  "Beartic": [
+    "VGC",
+    "Monotype",
+    "NeverUsed",
+    "PU"
+  ],
+  "Cryogonal": [
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Shelmet": [
+    "All"
+  ],
+  "Accelgor": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Stunfisk": [
+    "Monotype",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Stunfisk-Galar": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Mienshao": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed"
+  ],
+  "Druddigon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Golurk": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Pawniard": [
+    "UnderUsed",
+    "PU"
+  ],
+  "Bisharp": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Bouffalant": [
+    "VGC",
+    "UnderUsed",
+    "PU"
+  ],
+  "Braviary": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Vullaby": [
+    "NeverUsed"
+  ],
+  "Mandibuzz": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Heatmor": [
+    "UnderUsed",
+    "PU"
+  ],
+  "Durant": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Hydreigon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Volcarona": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Cobalion": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Terrakion": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "Ubers"
+  ],
+  "Virizion": [
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Tornadus": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Tornadus-Therian": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Thundurus": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Thundurus-Therian": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Reshiram": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Zekrom": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Landorus": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Landorus-Therian": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Kyurem": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Kyurem-Black": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Kyurem-White": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Keldeo": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Meloetta": [
+    "All"
+  ],
+  "Genesect": [
+    "All",
+    "Ubers"
+  ],
+  "Delphox": [
+    "All"
+  ],
+  "Greninja": [
+    "All"
+  ],
+  "Bunnelby": [
+    "PU"
+  ],
+  "Diggersby": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Talonflame": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Vivillon": [
+    "All"
+  ],
+  "Pyroar": [
+    "All"
+  ],
+  "Florges": [
+    "All"
+  ],
+  "Pangoro": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Meowstic": [
+    "VGC",
+    "Monotype",
+    "Ubers",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Honedge": [
+    "Monotype"
+  ],
+  "Doublade": [
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Aegislash": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Aromatisse": [
+    "VGC",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Swirlix": [
+    "Ubers",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Slurpuff": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Malamar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Barbaracle": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Skrelp": [
+    "PU"
+  ],
+  "Dragalge": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Clawitzer": [
+    "VGC",
+    "NeverUsed"
+  ],
+  "Heliolisk": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Tyrunt": [
+    "NeverUsed"
+  ],
+  "Tyrantrum": [
+    "OverUsed",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Aurorus": [
+    "OverUsed",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Sylveon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Hawlucha": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Dedenne": [
+    "VGC",
+    "PU"
+  ],
+  "Carbink": [
+    "All",
+    "Ubers",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Goodra": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Klefki": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Trevenant": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Gourgeist": [
+    "PU"
+  ],
+  "Avalugg": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Noivern": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Xerneas": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Yveltal": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Zygarde": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Diancie": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Volcanion": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Decidueye": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Torracat": [
+    "VGC"
+  ],
+  "Incineroar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Primarina": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Toucannon": [
+    "All"
+  ],
+  "Charjabug": [
+    "VGC",
+    "PU"
+  ],
+  "Vikavolt": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Ribombee": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Lycanroc": [
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Lycanroc-Midnight": [
+    "VGC",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Lycanroc-Dusk": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Wishiwashi": [
+    "PU"
+  ],
+  "Toxapex": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Mudsdale": [
+    "VGC",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Araquanid": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Lurantis": [
+    "VGC",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Shiinotic": [
+    "VGC",
+    "Monotype",
+    "All",
+    "PU"
+  ],
+  "Salazzle": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Bewear": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Tsareena": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Comfey": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Oranguru": [
+    "VGC"
+  ],
+  "Passimian": [
+    "VGC",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Golisopod": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Palossand": [
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Pyukumuku": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Type: Null": [
+    "Monotype",
+    "NeverUsed",
+    "PU"
+  ],
+  "Silvally": [
+    "VGC",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Silvally-Bug": [
+    "PU"
+  ],
+  "Silvally-Dark": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Silvally-Dragon": [
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Silvally-Electric": [
+    "OverUsed",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Silvally-Fairy": [
+    "Monotype",
+    "NeverUsed",
+    "PU"
+  ],
+  "Silvally-Fighting": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Silvally-Fire": [
+    "NeverUsed"
+  ],
+  "Silvally-Ghost": [
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Silvally-Grass": [
+    "NeverUsed"
+  ],
+  "Silvally-Ground": [
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Silvally-Ice": [
+    "NeverUsed"
+  ],
+  "Silvally-Poison": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Silvally-Rock": [
+    "PU"
+  ],
+  "Silvally-Steel": [
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Silvally-Water": [
+    "NeverUsed",
+    "PU"
+  ],
+  "Minior": [
+    "All"
+  ],
+  "Komala": [
+    "All"
+  ],
+  "Turtonator": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "NeverUsed",
+    "PU"
+  ],
+  "Togedemaru": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Mimikyu": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Drampa": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Dhelmise": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Hakamo-o": [
+    "PU"
+  ],
+  "Kommo-o": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Tapu Koko": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Tapu Lele": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Tapu Bulu": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Tapu Fini": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Solgaleo": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Lunala": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Nihilego": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Buzzwole": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Pheromosa": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Xurkitree": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "RarelyUsed"
+  ],
+  "Celesteela": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Kartana": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Guzzlord": [
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Necrozma": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Necrozma-Dusk-Mane": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Necrozma-Dawn-Wings": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Magearna": [
+    "All",
+    "Ubers"
+  ],
+  "Marshadow": [
+    "All",
+    "Ubers"
+  ],
+  "Naganadel": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Stakataka": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Blacephalon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Zeraora": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Melmetal": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Thwackey": [
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Rillaboom": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Raboot": [
+    "VGC",
+    "NeverUsed",
+    "PU"
+  ],
+  "Cinderace": [
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Inteleon": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Greedent": [
+    "VGC"
+  ],
+  "Corviknight": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Dottler": [
+    "PU"
+  ],
+  "Orbeetle": [
+    "VGC",
+    "Monotype",
+    "All",
+    "PU"
+  ],
+  "Thievul": [
+    "VGC",
+    "NeverUsed",
+    "PU"
+  ],
+  "Eldegoss": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "Ubers",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Dubwool": [
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Drednaw": [
+    "OverUsed",
+    "VGC",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Boltund": [
+    "VGC",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Coalossal": [
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Flapple": [
+    "OverUsed",
+    "VGC",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Appletun": [
+    "VGC",
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Sandaconda": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Cramorant": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "PU"
+  ],
+  "Barraskewda": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Toxtricity": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Centiskorch": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Grapploct": [
+    "VGC",
+    "PU"
+  ],
+  "Sinistea": [
+    "NeverUsed"
+  ],
+  "Polteageist": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Hattrem": [
+    "PU"
+  ],
+  "Hatterene": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Morgrem": [
+    "All",
+    "PU"
+  ],
+  "Grimmsnarl": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Obstagoon": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Perrserker": [
+    "VGC",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Cursola": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Sirfetch'd": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Mr. Rime": [
+    "VGC",
+    "Monotype",
+    "NeverUsed",
+    "PU"
+  ],
+  "Runerigus": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Alcremie": [
+    "VGC",
+    "All",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Falinks": [
+    "VGC",
+    "PU"
+  ],
+  "Pincurchin": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Frosmoth": [
+    "VGC",
+    "Monotype",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Stonjourner": [
+    "VGC",
+    "PU"
+  ],
+  "Eiscue": [
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "PU"
+  ],
+  "Indeedee": [
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Indeedee-F": [
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Morpeko": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Copperajah": [
+    "OverUsed",
+    "VGC",
+    "All",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Dracozolt": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Arctozolt": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Dracovish": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Arctovish": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Duraludon": [
+    "VGC",
+    "Monotype",
+    "All",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Drakloak": [
+    "PU"
+  ],
+  "Dragapult": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Zacian": [
+    "All"
+  ],
+  "Zacian-Crowned": [
+    "VGC",
+    "All"
+  ],
+  "Zamazenta": [
+    "All",
+    "Ubers"
+  ],
+  "Zamazenta-Crowned": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Eternatus": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Urshifu": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Urshifu-Rapid-Strike": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Glastrier": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed"
+  ],
+  "Spectrier": [
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Zapdos-Galar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Articuno-Galar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "UnderUsed",
+    "RarelyUsed",
+    "NeverUsed",
+    "PU"
+  ],
+  "Moltres-Galar": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Regieleki": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed"
+  ],
+  "Regidrago": [
+    "OverUsed",
+    "VGC",
+    "Monotype",
+    "All",
+    "Ubers",
+    "UnderUsed",
+    "RarelyUsed"
+  ],
+  "Slowking-Galar": [
+    "OverUsed",
+    "Monotype",
+    "All",
+    "Ubers"
+  ],
+  "Calyrex-Shadow": [
+    "VGC",
+    "All",
+    "Ubers"
+  ],
+  "Calyrex-Ice": [
+    "VGC",
+    "All",
+    "Ubers"
+  ]
+}
