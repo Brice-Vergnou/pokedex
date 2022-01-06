@@ -6,7 +6,7 @@ import json
 import pandas as pd
 from data_dex import dex
 
-# TODO : Add links to different pages
+
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
@@ -17,7 +17,7 @@ st.markdown("""
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Image-Based Pokedex<span class="sr-only">(current)</span></a>
+        <a class="nav-link disabled" href="https://share.streamlit.io/brice-vergnou/pokedex/image.py">Image-Based Pokedex<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#" target="_blank">Name-Based Pokedex</a>

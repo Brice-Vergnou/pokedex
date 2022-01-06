@@ -52,7 +52,7 @@ st.markdown("""
         <a class="nav-link disabled" href="#">Image-Based Pokedex<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" target="_blank">Name-Based Pokedex</a>
+        <a class="nav-link" href="https://share.streamlit.io/brice-vergnou/pokedex/name.py" target="_blank">Name-Based Pokedex</a>
       </li>
     </ul>
   </div>
