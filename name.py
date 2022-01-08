@@ -5,47 +5,50 @@ import requests
 import json
 import pandas as pd
 
-
-st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
-st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
-  <a class="navbar-brand" href="https://github.com/Brice-Vergnou/pokedex" target="_blank">Smart Pokedex</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link disabled" href="https://share.streamlit.io/brice-vergnou/pokedex/image.py">Image-Based Pokedex<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#" >Name-Based Pokedex</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-""", unsafe_allow_html=True)
-st.header("Pokemon classifier Analytics")
-st.write("\n\n\n\n\n\n\n\n")
-st.write("\n:wave:    **Welcome, here you can quickly get some useful informations about a Pokemon for strategy, both in single or VGC. Just provide its name down below**")
-st.write("\n\n\n\n\n\n\n")
-
-with open("data_cleaned.json","r") as f:
-    dex = json.load(f)
-
 def main():
+    ##### INIT #####
+    st.markdown(
+        '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">',
+        unsafe_allow_html=True)
+    st.markdown("""
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
+          <a class="navbar-brand" href="https://github.com/Brice-Vergnou/pokedex" target="_blank">Smart Pokedex</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link disabled" href="https://share.streamlit.io/brice-vergnou/pokedex/image.py">Image-Based Pokedex<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#" >Name-Based Pokedex</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        """, unsafe_allow_html=True)
+    st.header("Pokemon classifier Analytics")
+    st.write("\n\n\n\n\n\n\n\n")
+    st.write(
+        "\n:wave:    **Welcome, here you can quickly get some useful informations about a Pokemon for strategy, both in single or VGC. Just provide its name down below**")
+    st.write("\n\n\n\n\n\n\n")
+
+    with open("data_cleaned.json", "r") as f:
+        dex = json.load(f)
     pokemon = st.multiselect(
         'Pokemon :',
         dex)
+    ##### MAIN #####
     if pokemon != []:
-        working_pokemon = pokemon[0].replace(' ','%20')
+        working_pokemon = pokemon[0].replace(' ', '%20')
         option = st.sidebar.selectbox(
             'Which format are you interested in ?',
             tuple(dex[pokemon[0]]))
         if option == "OverUsed":
             url = "https://www.pikalytics.com/api/p/2021-12/gen8ou-1825/"
-        elif option == "VGC" :
-            url ="https://www.pikalytics.com/api/p/2021-12/ss-1760/"
+        elif option == "VGC":
+            url = "https://www.pikalytics.com/api/p/2021-12/ss-1760/"
         elif option == "Monotype":
             url = "https://www.pikalytics.com/api/p/2021-12/gen8monotype-1760/"
         elif option == "All":
@@ -62,6 +65,7 @@ def main():
             url = "https://www.pikalytics.com/api/p/2021-12/gen8pu-1760/"
         get_info(working_pokemon, url)
 
+
 # TODO : Handle errors
 def get_info(pokemon, url):
     try:
@@ -72,18 +76,24 @@ def get_info(pokemon, url):
         data = data.text
         data = json.loads(data)
         ##### GENERAL DATA
-        st.write("## General data")
-        _, c1, br1, c2, br2, c3, _ = st.columns(7)
-        with c1:
-            st.write(f"**{data['percent']}% usage** \t\t")
-        with br1:
-            st.write("⚡")
-        with c2:
-            st.write(f"**#{data['ranking']} this month**")
-        with br2:
-            st.write("⚡")
-        with c3:
-            st.write(f"**Viability : {data['viability']}**")
+        try :
+            data_per = data['percent']
+            data_rank = data['ranking']
+            data_via = data['viability']
+            st.write("## General data")
+            _, c1, br1, c2, br2, c3, _ = st.columns(7)
+            with c1:
+                st.write(f"**{data_per}% usage** \t\t")
+            with br1:
+                st.write("⚡")
+            with c2:
+                st.write(f"**#{data_rank} this month**")
+            with br2:
+                st.write("⚡")
+            with c3:
+                st.write(f"**Viability : {data_via}**")
+        except :
+            pass
         ##### TYPE #####
         st.write("## Types")
         types = data["types"]
@@ -230,32 +240,49 @@ def get_info(pokemon, url):
                 st.write(f"\n**{y[i]}** : {width[i]}\n")
         with c2:
             st.pyplot(figure)
+        plt.close(figure)
         ##### ABILITY #####
         st.write("## Abilities")
         abilities = data["abilities"]
         abilities_name = [x["ability"] for x in abilities]
         abilities_per = [f'{float(x["percent"]):.1f}  %' for x in abilities]
-        df_abilities = pd.DataFrame([abilities_per],columns=abilities_name)
+        df_abilities = pd.DataFrame([abilities_per], columns=abilities_name)
         st.write(df_abilities)
         ##### CAPACITIES #####
         st.write("## Moves")
         moves = data["moves"]
-        move_name = [x["move"] for x in moves]
-        move_per = [f'{float(x["percent"]):.1f}  %' for x in moves]
+        move_name = []
+        move_per = []
+        for x in moves:
+            try:
+                move_name.append(x["move"])
+                move_per.append(f"{float(x['percent']):.1f}  %")
+            except :
+                pass
         df_moves = pd.DataFrame([move_per], columns=move_name)
         st.write(df_moves)
         ##### ITEMS #####
         st.write("## Items")
         items = data["items"]
-        item_name = [x["item"] for x in items]
-        item_per = [f'{float(x["percent"]):.1f}  %' for x in items]
+        item_name = []
+        item_per = []
+        for x in items:
+            try:
+                item_name.append(x["item"])
+                item_per.append(f"{float(x['percent']):.1f}  %")
+            except:
+                pass
         df_items = pd.DataFrame([item_per], columns=item_name)
         st.write(df_items)
         ##### TEAM #####
         st.write("## Most Common Teammates")
         teams = data["team"]
-        team_name = [x["pokemon"] for x in teams]
-        team_per = [f'{float(x["percent"]):.1f}  %' for x in teams]
+        team_name = []
+        team_per = []
+        for x in teams:
+            if x["pokemon"] not in team_name:
+                team_name.append(x["pokemon"])
+                team_per.append(f"{float(x['percent']):.1f}  %")
         df_teams = pd.DataFrame([team_per], columns=team_name)
         st.write(df_teams)
         ##### SPREADS #####
@@ -272,10 +299,9 @@ def get_info(pokemon, url):
                 informations about known sets or check/counters on [Smogon](https://www.smogon.com/dex/ss/pokemon/{pokemon}).")
     except json.JSONDecodeError:
         st.write("#### We don't have data for that Pokemon.😞")
-        st.write(" It may be because it doesn't belong to the selected category, or because we're lacking data as it is too rarely used.")
-    except :
-        st.write("#### Something unexpected happened 😞")
-        st.write("Please contact me on Twitter ([@Brice__fr](https://twitter.com/Brice__fr)) so I can fix this bug")
+        st.write(
+            " It may be because it doesn't belong to the selected category, or because we're lacking data as it is too rarely used.")
+
 
 if __name__ == "__main__":
     main()

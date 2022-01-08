@@ -1,10 +1,11 @@
 ##### RAN ONLY ONCE TO GET ALL POKEMON NAMES AND SELECT THEM ######
-# pokemon_names = requests.get("https://cdn.pikalytics.com/images/datasets/pokemon_v3.js?v=1")
-# pokemon_names = pokemon_names.text[25:-4].replace("//", "").replace("\'","").split(",")
-# pokemon_names = list(map(lambda x: x[5:], pokemon_names))
-# tmp = pokemon_names
-# with open("data_dex.py", "w") as f:
-#     f.write(str(pokemon_names))
+def get_names():
+       pokemon_names = requests.get("https://cdn.pikalytics.com/images/datasets/pokemon_v3.js?v=1")
+       pokemon_names = pokemon_names.text[25:-4].replace("//", "").replace("\'","").split(",")
+       pokemon_names = list(map(lambda x: x[5:], pokemon_names))
+       tmp = pokemon_names
+       with open("data_dex.py", "w") as f:
+           f.write(str(pokemon_names))
 
 dex = ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Charmander', 'Charmeleon', 'Charizard',
        'Squirtle', 'Wartortle', 'Blastoise', 'Caterpie', 'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedrill',
@@ -141,6 +142,7 @@ dex = ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Charmander', 'Charmeleon', 'Charizar
 
 ##### RUN ONLY ONCE AS WELL, TURN LIST INTO DICT WITH EACH CATEGORY #####
 import urllib.request
+
 urls = ["https://www.pikalytics.com/api/p/2021-12/gen8ou-1825/",
         "https://www.pikalytics.com/api/p/2021-12/ss-1760/",
         "https://www.pikalytics.com/api/p/2021-12/gen8monotype-1760/",
@@ -150,31 +152,33 @@ urls = ["https://www.pikalytics.com/api/p/2021-12/gen8ou-1825/",
         "https://www.pikalytics.com/api/p/2021-12/gen8ru-1760/",
         "https://www.pikalytics.com/api/p/2021-12/gen8nu-1760/",
         "https://www.pikalytics.com/api/p/2021-12/gen8pu-1760/"]
-cat = ["OverUsed", "VGC", "Monotype", "All","Ubers","UnderUsed","RarelyUsed","NeverUsed","PU"]
-pok_cat = {}
-for j,mon in enumerate(dex):
-       pok_cat[mon] = []
-       for i, url in enumerate(urls):
-              print(f"Pokemon {j} {mon} : {cat[i]}     -    {url+ mon.lower().replace(' ','%20')}")
-              try:
-                     urllib.request.urlopen(url+ mon.lower().replace(' ','%20'), timeout=1)
-                     pok_cat[mon].append(cat[i])
-              except:
-                     print("Doesn't exist")
-with open("data.json","w") as f:
-       f.write(str(pok_cat))
+categories = ["OverUsed", "VGC", "Monotype", "All", "Ubers", "UnderUsed", "RarelyUsed", "NeverUsed", "PU"]
+
+def list_to_dict():
+       pok_cat = {}
+       for j, mon in enumerate(dex):
+           pok_cat[mon] = []
+           for i, url in enumerate(urls):
+               print(f"Pokemon {j} {mon} : {categories[i]}     -    {url + mon.lower().replace(' ', '%20')}")
+               try:
+                   urllib.request.urlopen(url + mon.lower().replace(' ', '%20'), timeout=1)
+                   pok_cat[mon].append(categories[i])
+               except:
+                   print("Doesn't exist")
+       with open("data.json", "w") as f:
+           f.write(str(pok_cat))
 
 ##### ALSO RUN ONCE, REMOVE POKEMONS WITH NO DATA #####
 import json
 
-with open("data.json","r") as f:
-    dex = json.load(f)
+def clean_dict():
+       with open("data.json", "r") as f:
+           dex = json.load(f)
 
+       tmp = dex
+       for mon in list(tmp):
+           if dex[mon] == []:
+               del dex[mon]
 
-tmp = dex
-for mon in list(tmp):
-    if dex[mon] == []:
-        del dex[mon]
-
-with open('data_cleaned.json', 'w') as outfile: #Dont overwrite the previous file in case it doesnt work as intended
-    json.dump(dex, outfile)
+       with open('data_cleaned.json', 'w') as outfile:  # Dont overwrite the previous file in case it doesnt work as intended
+           json.dump(dex, outfile)
