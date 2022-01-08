@@ -297,11 +297,10 @@ def get_info(pokemon, url):
         st.write(f"All the informations have been scrapped from \
                 [Pikalitics](https://www.pikalytics.com/pokedex/ss/{pokemon}). You can also find more \
                 informations about known sets or check/counters on [Smogon](https://www.smogon.com/dex/ss/pokemon/{pokemon}).")
-    except json.JSONDecodeError:
-        st.write("#### We don't have data for that Pokemon.😞")
+    except:
+        st.write("#### Something unexpected happen.😞")
         st.write(
-            " It may be because it doesn't belong to the selected category, or because we're lacking data as it is too rarely used.")
-
+            " Please contact me on Twitter ([@Brice__fr](https://twitter.com/Brice__fr)) to let me know about it.")
 
 if __name__ == "__main__":
     main()
