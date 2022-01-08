@@ -36,6 +36,14 @@ model.compile(loss="sparse_categorical_crossentropy",
               metrics=["accuracy"])
 model.load_weights("model_checkpoints/cp.ckpt")
 
+st.markdown("""
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+        </style>
+        """,
+            unsafe_allow_html=True)
 st.markdown(
     '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">',
     unsafe_allow_html=True)
