@@ -73,7 +73,7 @@ st.write("\n\n\n\n\n\n\n")
 
 
 def main():
-    uploaded = st.file_uploader("Choose the image to recognize", type=["jpg", "png", "jpeg"])
+    uploaded = st.file_uploader("Choose the image to recognize", type=["jpg", "jpeg"])
     st.write("\n\n\n\n\n\n\n")
     if uploaded is not None:
         image = Image.open(uploaded)
@@ -85,7 +85,7 @@ def main():
         with c1:
             st.write(f"🧮   With **{prob * 100:.2f}%** chance : **{result.capitalize()}**")
         with c2:
-            st.pyplot(figure, width=150, use_column_width=False)
+            st.pyplot(figure, width=150, use_column_width=True)
         option = st.sidebar.selectbox(
             'Which format are you interested in ?',
             ('Single', 'VGC'))
@@ -93,10 +93,7 @@ def main():
             get_info(result, "https://www.pikalytics.com/api/p/2021-12/gen8ou-1825/")
         else:
             get_info(result, "https://www.pikalytics.com/api/p/2021-12/ss-1760/")
-        st.write("### Credits")
-        st.write(f"All the informations have been scrapped from \
-        [Pikalitics](https://www.pikalytics.com/pokedex/ss/{result.replace(' ', '%20')}). You can also find more \
-        informations about known sets or check/counters on [Smogon](https://www.smogon.com/dex/ss/pokemon/{result.replace(' ', '%20')}).")
+
 
 def predict_class(image):
     test_image = image.resize((200, 200))
