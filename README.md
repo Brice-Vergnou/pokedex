@@ -14,7 +14,7 @@ The Pokedex is built with Streamlit that does a wonderful job at rendering data 
 
 The [first page](https://share.streamlit.io/brice-vergnou/pokedex/name.py) is the most predictable : you give a name and the programs throws at you a bunch of information. 
 
-[image heatran]
+![image](https://user-images.githubusercontent.com/86613710/149523546-4278abf4-8cd6-44f9-ae46-a452dfcc2b29.png)
 
 The program still had to handle missing data from the API that would make the app crash, or the fact that some API endpoints just didn't exist ( probably because the Pokemon in a certain rank wasn't played enough ). Moreover, you can select which format you want to see the data for, which can be useful if you don't play in the most popular formats
 
