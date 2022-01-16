@@ -1,6 +1,7 @@
 # Smart Pokedex
 
 :point_right: [The website](https://share.streamlit.io/brice-vergnou/pokedex/name.py)
+
 :point_right: [The article](https://medium.com/@brice.vergnou/how-to-easily-scrap-numerical-data-or-find-an-api-endpoint-3590d26ce4b3)
 
 ### Background
