@@ -4,15 +4,15 @@
 
 :point_right: [The article](https://medium.com/@brice.vergnou/how-to-easily-scrap-numerical-data-or-find-an-api-endpoint-3590d26ce4b3)
 
-### Background
+## Background
 
 As an enthusiast of Pokemon Strategy, I spend a fair amount of time checking stats of Pokemons during a fight to quickly indentify what I could expect from my opponent. The only problem is that I'd have to jump between websites like [Smogon](https://www.smogon.com/dex/ss/formats/ou/) or [PikAnalytics](https://www.pikalytics.com/pokedex/gen8ou), and I wanted to make this process easier for me. 
 
-### Features
+## Features
 
 The Pokedex is built with Streamlit that does a wonderful job at rendering data in a web browser. Thanks to [a video from Data Professor](https://www.youtube.com/watch?v=hoPvOIJvrb8), I could add a navigation bar to hop between the two pages of this app
 
-#### Name-based
+### Name-based
 
 The [first page](https://share.streamlit.io/brice-vergnou/pokedex/name.py) is the most predictable : you give a name and the programs throws at you a bunch of information. 
 
@@ -22,10 +22,11 @@ The program still had to handle missing data from the API that would make the ap
 
 
 
-#### Image-based
+### Image-based
 
 I couldn't make a Pokedex without adding some computer vision to recognize some Pokemons. I didn't do it for all pokemons ( there are like 800-900+ different species). Plus it was definitely harder as there was not Dataset for what I wanted, so I collected by hand pictures of the 50 most used Pokemons in OverUsed. But even there, I would have some problems : there is barely any picture so the number of images for each class would vary between 15 and 50 images.
 
+![image](https://user-images.githubusercontent.com/86613710/149659030-ecb6949c-8bd7-4bcc-bfd5-4d69df78374a.png)
 
 
 Surprisingly enough, I managed to get 85% accuracy with a simple CNN structure ( anything more complex wouldn't have learned anything on such a small dataset ), which made me pretty satisfied.
